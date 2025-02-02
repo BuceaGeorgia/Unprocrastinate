@@ -1,0 +1,49 @@
+body {
+    width: 300px;
+    padding: 16px;
+  }
+  
+  .timer-display {
+    font-size: 24px;
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin: 16px 0;
+  }
+  
+  .button-container button {
+    background-color: #4a4a4a;  /* Dark gray color */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin: 0 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+  }
+  
+  .button-container button:hover {
+    background-color: #4a90e2;  /* Blue color */
+  }
+  
+  .button-container button:active {
+    background-color: #357abd;  /* Darker blue for pressed state */
+  }
+  
+  .button-container button:disabled {
+    background-color: #6e6e6e;  /* Lighter gray for disabled state */
+    cursor: not-allowed;
+  }
+  
+  .chart-container {
+    margin-top: 20px;
+    height: 200px;
+  }

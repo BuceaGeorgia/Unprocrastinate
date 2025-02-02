@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Unprocrastinate",
+    "version": "1.0",
+    "description": "Track your deep work. Unprocrastinate and get things done",
+    "action": {
+      "default_popup": "popup.html",
+      "default_width": "200",
+    "default_height": "1000"
+      
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": ["storage", "alarms"],
+    "icons": {
+      "48": "icons/bar_rd_48.png",
+      "128": "icons/bar_rd_128.png"
+    }
+  }
