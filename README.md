@@ -1,5 +1,7 @@
 # Unprocrastinate
 
+Install It: https://chromewebstore.google.com/detail/unprocrastinate/cnmbgcfacoggomdmjacddjkpihmboejd
+
 Chrome Extension to track your deep work. Unprocrastinate and get things done. Based on Tim Urban's concept of procrastination.
 
 Start a four-hour timer every time you want to do deep work. Stop the timer and check how much time you spend with the Instant Gratification Monkey
